@@ -102,30 +102,60 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  font-family: 'Roboto', sans-serif;
+  padding: 5em;
   font-size: 1.25em;
   height: 100%;
+ }
+
+h1 {
+	font-family: 'Boogaloo', cursive;	
+	font-size: 3em; 
+	margin: auto;
+	color: #8FD9D9;
+}
+
+.content p{
+  color: #000000;	
+  font-size: 1em;	
 }
 
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700; 
+  /*add display:flex and set justify-content to space-between*/  
+  font-weight: 100; 
   display: flex;
   justify-content: space-around;
+  border-top: 1px solid #8FD9D9; 
+  border-bottom: 1px solid #8FD9D9;	
+  padding: 10px 0px;	
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  color: #A68E80;
+  line-height: 1.5em;	  
+  height: auto;
   display: flex;
   justify-content: center;
   align-content: center;
   width: 30%; 
+  padding: 10px; 	  	
+}
+
+.div-2, .div-3 {
+	border-left: 1px solid #8FD9D9;
+	padding-left: 20px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;	
+  line-height: 1.5;  
+  text-align: left; 	
+}
+
+strong {
+  color: #3D7373;	
 }
 
 
