@@ -124,10 +124,11 @@ h1 {
   /*add display:flex and set justify-content to space-between*/  
   font-weight: 100; 
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   border-top: 1px solid #8FD9D9; 
   border-bottom: 1px solid #8FD9D9;	
   padding: 10px 0px;	
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
